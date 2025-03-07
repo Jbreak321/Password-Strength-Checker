@@ -41,5 +41,5 @@ const randomWordsWithNumbers = ["Bird32@", "Dog#$", "Cat%&", "Fish^&", "Horse*$"
 function RandomPassword(RandomPass){
     RandomPass = randomWordsWithNumbers[Math.floor(Math.random() * randomWordsWithNumbers.length)]
     suggestedPass.textContent = RandomPass
-    
+    //change
 }
